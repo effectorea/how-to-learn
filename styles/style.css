@@ -22,6 +22,7 @@
 .logo {
   width: 183px;
   height: 32px;
+  background-image: url('../images/logo_place_header.svg');
 }
 .logo_place_header {
   background-image: url('../images/logo_place_header.svg');
@@ -224,4 +225,50 @@ section {
 .table_theme_dark {
   position: relative;
   z-index: 2;
+}
+.footer {
+  background-color: black;
+  padding: 60px 0 40px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.footer__author, .footer__column-heading {
+  color: #f2f2f2;
+}
+.footer__column-links {
+list-style: none;
+padding: 0;
+margin: 20px 0 16px;
+}
+
+.logo_place_footer {
+background-image: url('../images/logo_place_footer.svg');
+}
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  position: relative;
+}
+.footer__column-link_text {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
